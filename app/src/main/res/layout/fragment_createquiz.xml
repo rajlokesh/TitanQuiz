@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".CreateQuizFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:id="@+id/btnGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="Quiz Id:"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtQuizId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#AD1457"
+                    android:gravity="right"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="Name:"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtQuizName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#AD1457"
+                    android:gravity="right"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="Description:"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtQuizDescription"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#AD1457"
+                    android:gravity="right"
+                    android:inputType="textMultiLine"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAddQuestions"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#AD1457"
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Start Adding Questions"
+                android:textColor="@android:color/white"
+                android:theme="@style/MyButton" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

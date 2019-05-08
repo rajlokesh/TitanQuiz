@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Titan Quiz</string>
+
+    <string-array name="choices">
+        <item>Choice A</item>
+        <item>Choice B</item>
+        <item>Choice C</item>
+        <item>Choice D</item>
+
+    </string-array>
+</resources>

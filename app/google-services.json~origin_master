@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "513144146200",
+    "firebase_url": "https://titan-quiz-c4eb2.firebaseio.com",
+    "project_id": "titan-quiz-c4eb2",
+    "storage_bucket": "titan-quiz-c4eb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513144146200:android:cc6614c69cbdfd3b",
+        "android_client_info": {
+          "package_name": "com.madisoft.raj.titanquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513144146200-ahk9sitqjk3qdhie9o23pf1g2bhlo649.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.madisoft.raj.titanquiz",
+            "certificate_hash": "339553b6922d2de77c8e23bbf36f433bd4f73f13"
+          }
+        },
+        {
+          "client_id": "513144146200-qokbsbqrnhep4bu1v99vuhncthmodnnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "dummy"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513144146200-qokbsbqrnhep4bu1v99vuhncthmodnnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
